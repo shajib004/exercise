@@ -6,7 +6,7 @@ import click
 from torch.utils.data import Dataset, DataLoader
 import numpy as np
 import os
-sys.path.insert(1, r"C:\Users\shaji\Mlops\dtu_mlops\s1_development_environment\exercise_files\final_exercise\model.py")
+sys.path.insert(1, r"C:\Users\shaji\exercise\exercise\s1_development_environment\exercise_files\final_exercise\model.py")
 from model import MyModel
 import model as Mymodel
 from torch import optim, nn
@@ -75,8 +75,8 @@ def mnist():
         def __getitem__(self, idx):
             return self.imgs[idx], self.labels[idx]
 
-    train_path = r"C:\Users\shaji\Mlops\dtu_mlops\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\train_"
-    test_path = r"C:\Users\shaji\Mlops\dtu_mlops\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\test.npz"
+    train_path = r"C:\Users\shaji\exercise\exercise\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\train_"
+    test_path = r"C:\Users\shaji\exercise\exercise\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\test.npz"
 
     train_data = MyDataset(train_path, train=True)
 
@@ -113,7 +113,7 @@ import click
 from torch.utils.data import Dataset, DataLoader
 import numpy as np
 import os
-sys.path.insert(1, r"C:\Users\shaji\Mlops\dtu_mlops\s1_development_environment\exercise_files\final_exercise\model.py")
+sys.path.insert(1, r"C:\Users\shaji\exercise\exercise\s1_development_environment\exercise_files\final_exercise\model.py")
 from model import MyModel
 import model as Mymodel
 from torch import optim, nn
@@ -182,8 +182,8 @@ def mnist():
         def __getitem__(self, idx):
             return self.imgs[idx], self.labels[idx]
 
-    train_path = r"C:\Users\shaji\Mlops\dtu_mlops\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\train_"
-    test_path = r"C:\Users\shaji\Mlops\dtu_mlops\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\test.npz"
+    train_path = r"C:\Users\shaji\exercise\exercise\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\train_"
+    test_path = r"C:\Users\shaji\exercise\exercise\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\test.npz"
 
     train_data = MyDataset(train_path, train=True)
 

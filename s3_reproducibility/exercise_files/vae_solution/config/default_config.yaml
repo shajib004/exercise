@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+defaults:
+    - experiment: exp1
+=======
+defaults:
+    - experiment: exp1
+>>>>>>> 1d4db2f081cb7f024eed821f55ecde73b820a964

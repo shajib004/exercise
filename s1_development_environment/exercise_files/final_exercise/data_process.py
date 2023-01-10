@@ -28,8 +28,8 @@ class MyDataset(Dataset):
         return self.imgs[idx], self.labels[idx]
 
 
-train_path = r"C:\Users\shaji\Mlops\dtu_mlops\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\train_"
-test_path = r"C:\Users\shaji\Mlops\dtu_mlops\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\test.npz"
+train_path = r"C:\Users\shaji\exercise\exercise\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\train_"
+test_path = r"C:\Users\shaji\exercise\exercise\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\test.npz"
 
 
 train_data = MyDataset(train_path, train=True)

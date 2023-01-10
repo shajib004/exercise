@@ -51,8 +51,8 @@ if __name__ == '__main__':
     # find .env automagically by walking up directories until it's found, then
     # load up the .env entries as environment variables
     load_dotenv(find_dotenv())
-    # train_path = r"C:\Users\shaji\Mlops\dtu_mlops\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\"
-    # out_path = r"C:\Users\shaji\Mlops\dtu_mlops\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\"
+    # train_path = r"C:\Users\shaji\exercise\exercise\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\"
+    # out_path = r"C:\Users\shaji\exercise\exercise\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\"
     main()
 =======
 # -*- coding: utf-8 -*-
@@ -107,7 +107,7 @@ if __name__ == '__main__':
     # find .env automagically by walking up directories until it's found, then
     # load up the .env entries as environment variables
     load_dotenv(find_dotenv())
-    # train_path = r"C:\Users\shaji\Mlops\dtu_mlops\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\"
-    # out_path = r"C:\Users\shaji\Mlops\dtu_mlops\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\"
+    # train_path = r"C:\Users\shaji\exercise\exercise\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\"
+    # out_path = r"C:\Users\shaji\exercise\exercise\s1_development_environment\exercise_files\final_exercise\data\corruptmnist\"
     main()
 >>>>>>> 1d4db2f081cb7f024eed821f55ecde73b820a964

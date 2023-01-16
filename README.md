@@ -1,1 +1,1 @@
-# mlops - exercise
+# DTU-mlops - exercise
